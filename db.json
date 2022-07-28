@@ -1,0 +1,691 @@
+{
+  "users": [
+    {
+      "email": "kenzie@kenzie.com",
+      "password": "$2a$10$EUR/sb..JXh1kPfxZXtwP.pie4zfcjFdmMnpXAkHwn6yfpfvMcNxC",
+      "type": "studio",
+      "name": "kenzie",
+      "cnpj": "123456789",
+      "phone": "4199999999",
+      "cep": "80410981",
+      "num_home": "35",
+      "description": "Sou um studio",
+      "img_perfil": "https://mma.prnewswire.com/media/1002702/Kenzie_Academy_Logo.jpg?p=facebook",
+      "history": [],
+      "id": 1
+    },
+    {
+      "email": "kenzinho@kenzie.com",
+      "password": "$2a$10$eW8PjmIZZlnV4pdk2ZrzYOxqaeJcnwJxMT/1fx0n6CzSqbke/soOW",
+      "type": "artist",
+      "name": "kenzinho",
+      "cpf": "123456789",
+      "phone": "4199999999",
+      "cep": "80030110",
+      "num_home": "35",
+      "description": "Sou um artista",
+      "img_perfil": "https://mma.prnewswire.com/media/1002702/Kenzie_Academy_Logo.jpg?p=facebook",
+      "history": [],
+      "id": 2
+    },
+    {
+      "email": "Flata@kenzie.com",
+      "password": "$2a$10$YsbgoRwQTzEWV/MFiyGv2OkTZ5CnfqWu0e1Mnx4ieekjSZ02U9wMu",
+      "type": "studio",
+      "name": "Flata-Doce",
+      "cnpj": "123456789",
+      "phone": "4199999999",
+      "cep": "80230090",
+      "num_home": "35",
+      "description": "Sou um studio",
+      "img_perfil": "https://serenata.vteximg.com.br/arquivos/ids/327290-1000-1000/FLAUTA-YAMAHA-YRS23G_IMG2.jpg?v=637919316286400000",
+      "history": [],
+      "id": 3
+    },
+    {
+      "email": "taro@taro.com",
+      "password": "$2a$10$8NBidudVk3A/lxW.zgEFCeDle/NYYd7yq/rTkUjoVqqYa6UYjRAbu",
+      "cnpj": "140675902301",
+      "telefone": "1792457638",
+      "name": " Tarôttoo",
+      "type": "studio",
+      "term": true,
+      "cep": "80020240",
+      "num_home": "35",
+      "img_perfil": "https://media.istockphoto.com/photos/fan-of-playing-cards-consisting-of-four-ace-isolated-on-white-3d-picture-id1215907195?k=20&m=1215907195&s=612x612&w=0&h=n7A328mj7-6mm3iT8jws2inST_2wplulhiGu_2JTwuo=",
+      "description": "Sou um studio",
+      "history": [],
+      "id": 4
+    },
+    {
+      "email": "torando@kenzie.com",
+      "password": "$2a$10$X7ch/Y3xU3zUOnN16sAqreUMMCdM8Bkx9KdMxZMj.RXK6mW7RoWMm",
+      "type": "studio",
+      "name": "Tattoorando",
+      "cnpj": "19349539",
+      "phone": "16984934879",
+      "cep": "80010040",
+      "num_home": "35",
+      "description": "Sou um studio",
+      "img_perfil": "https://mafseguros.com.br/wordpress/wp-content/files/mafseguros.com.br/2021/05/imagem1.jpg",
+      "history": [],
+      "id": 5
+    },
+    {
+      "email": "marcolao@kenzie.com",
+      "password": "$2a$10$OPGb1tnpqy1FJopcWsfvF.VEDzYv4gXCFy2a4zG5gzAW.I3QHMDnG",
+      "type": "artist",
+      "name": "Marcolando",
+      "cpf": "08013444",
+      "phone": "234350984",
+      "cep": "80710300",
+      "num_home": "35",
+      "description": "Sou um artistãozão",
+      "img_perfil": "https://api.inkclub.tattoo/Content/images/tatuadores/273_25_10_2019_negocio-de-tatuagem.jpg",
+      "history": [],
+      "id": 6
+    },
+    {
+      "email": "leandro@kenzie.com",
+      "password": "$2a$10$HFSET2ucg3Ovcr7dHOT.puBD1Mjj4jVAQK.ilE6rbKgsUafmUKCRO",
+      "type": "artist",
+      "name": "Leandro Kendrick",
+      "cpf": "08013444",
+      "phone": "234350984",
+      "cep": "80710300",
+      "num_home": "35",
+      "description": "Tattoando teclando in frenesi",
+      "img_perfil": "https://www.laustattoo.com/site/wp-content/uploads/2019/07/qualidade-tatuador.jpg",
+      "history": [],
+      "id": 7
+    },
+    {
+      "email": "bozo@kenzie.com",
+      "password": "$2a$10$9/4X1oBflwCwNPIoXXhxV.nL7D0JIBt9HRIbdFv0hr6KK4wx5lu7u",
+      "type": "artist",
+      "name": "Bozo tattoo",
+      "cpf": "08013444",
+      "phone": "234350984",
+      "cep": "80710300",
+      "num_home": "35",
+      "description": "Tattoando teclando in frenesi",
+      "img_perfil": "https://uploads.metropoles.com/wp-content/uploads/2019/07/02121552/bolsonaro-bozo-600x400.jpg",
+      "history": [],
+      "id": 8
+    }
+  ],
+  "studio_rent": [
+    {
+      "userId": 1,
+      "img_URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRGk0fF-iXhQfYZJlbS2TiBOeJgZxJolid9A&usqp=CAU",
+      "price": "2000",
+      "rental_time": "24",
+      "cep": "80021980",
+      "real_state_num": "35",
+      "evaluation": "não sei o que é",
+      "contact": "41 9999 9999",
+      "descriptionCard": "Quero mudar o conceito da tattoo, expor ela como uma arte confiável desde a higiene e segurança até a apresentação dos artistas.",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 7,
+          "day": 20,
+          "hour_initial": 7,
+          "hour_final": 9
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "id": 1,
+      "type": "studio"
+    },
+    {
+      "userId": 3,
+      "img_URL": "https://i.pinimg.com/originals/be/e5/01/bee50162ff8509e4b63b7c7870d73d64.png",
+      "price": "1900",
+      "rental_time": "24",
+      "cep": "80010080",
+      "real_state_num": "35",
+      "evaluation": "não sei o que é",
+      "contact": "4199999999",
+      "descriptionCard": "DescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguel",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 7,
+          "day": 22,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "id": 2,
+      "type": "studio"
+    },
+    {
+      "userId": 1,
+      "img_URL": "http://www.organicade.com.br/wp-content/uploads/2016/10/08-sala-tattoo-decoracao-estudio-de-tatuagem-organica-design.png",
+      "price": "2300",
+      "rental_time": "13",
+      "cep": "80060901",
+      "real_state_num": "29",
+      "evaluation": "não sei o que é",
+      "contact": "4199999999",
+      "descriptionCard": "Quero mudar o conceito da tattoo, expor ela como uma arte confiável desde a higiene e segurança até a apresentação dos artistas.",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 8,
+          "day": 7,
+          "hour_initial": 7,
+          "hour_final": 10
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "img_URL": "https://www.suafranquia.com/views/sources/images/conteudo/principal/2d0826ea1e0396f63c74106b4fe5e9c0.jpg",
+      "price": "1700",
+      "rental_time": "34",
+      "cep": "80060205",
+      "real_state_num": "35",
+      "evaluation": "não sei o que é",
+      "contact": "5344894241",
+      "descriptionCard": "DescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguelDescriçãoDoAluguel",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 7,
+          "day": 26,
+          "hour_initial": 9,
+          "hour_final": 13
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "img_URL": "https://cdn6.campograndenews.com.br/uploads/noticias/2020/12/07/5fce21bd5820c.jpg",
+      "price": "1750",
+      "rental_time": "34",
+      "cep": "80010040",
+      "real_state_num": "35",
+      "evaluation": "não sei o que é",
+      "contact": "5344894241",
+      "descriptionCard": "Deslumbrando nobresas em epidermes movediças",
+      "session": "Não",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 10,
+          "day": 3,
+          "hour_initial": 8,
+          "hour_final": 17
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "img_URL": "https://i.pinimg.com/236x/d6/bd/37/d6bd379f3126df7e63186cd74dc78752--tatto-studio-tattoo-studio-interior.jpg",
+      "price": "2200",
+      "rental_time": "21",
+      "cep": "80020240",
+      "real_state_num": "39",
+      "evaluation": "não sei o que é",
+      "contact": "4199999999",
+      "descriptionCard": "TATTOORANDO É O PRIMEIRO ESTÚDIO DE TATUAGEM DE SÃO PAULO. TRABALHAMOS DESDE 1979 PARA QUE SUA EXPERIÊNCIA SEJA A MELHOR EM QUALIDADE E SATISFAÇÃO.",
+      "session": "Não",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 19
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "img_URL": "https://i.pinimg.com/236x/db/9f/2a/db9f2a499bbe4afc4893dd57c9857917.jpg",
+      "price": "1890",
+      "rental_time": "47",
+      "cep": "80230090",
+      "real_state_num": "50",
+      "evaluation": "não sei o que é",
+      "contact": "5344894241",
+      "descriptionCard": "Aquele Lugar Brabo",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 8,
+          "day": 17,
+          "hour_initial": 8,
+          "hour_final": 13
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "img_URL": "https://scontent.frao5-1.fna.fbcdn.net/v/t39.30808-6/275621674_1898414110362037_1924957832266842107_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEKsFc4QZeddG8yrArCE-CJyZQ-qvMwAyvJlD6q8zADK4sBv0ciRGhVpV8rFNahSG0WIYM8Cd7DvixZIZNoEVn0&_nc_ohc=A6fzVmVfU9sAX8IqVOF&_nc_ht=scontent.frao5-1.fna&oh=00_AT8d5AOCZmXVAoYHApON8aJyzzCIbJw7RiIxU0JgdHmYPg&oe=62D3FE60",
+      "price": "1090",
+      "rental_time": "47",
+      "cep": "80030110",
+      "real_state_num": "50",
+      "evaluation": "não sei o que é",
+      "contact": "5344894241",
+      "descriptionCard": "BoravÊBoravÊBoravÊBoravÊ BoravÊBoravÊBoravÊ BoravÊ BoravÊBoravÊBoravÊBoravÊBoravÊ BoravÊ",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 7,
+          "day": 29,
+          "hour_initial": 8,
+          "hour_final": 10
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "img_URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK35wC5NTsx0LYyJfLF8THHdrJIuJc5c-70vQfbQfeFdgmKiF0WhVXT8X8rVzE3Tn6uQg&usqp=CAU",
+      "price": "1990",
+      "rental_time": "47",
+      "cep": "80410981",
+      "real_state_num": "50",
+      "evaluation": "não sei o que é",
+      "contact": "5344894241",
+      "descriptionCard": " NoCantoDeCantoCantando NoCantoDeCantoCantando NoCantoDeCantoCantando NoCantoDeCantoCantando NoCantoDeCantoCantando NoCantoDeCantoCantando",
+      "session": "Não",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 8,
+          "day": 6,
+          "hour_initial": 8,
+          "hour_final": 8
+        }
+      ],
+      "material_list": [
+        "machine",
+        "alcool",
+        "cloths",
+        "paint",
+        "plastic film",
+        "especial oil",
+        "paint"
+      ],
+      "type": "studio",
+      "id": 9
+    }
+  ],
+  "tattoo_artist_schedule": [
+    {
+      "userId": 2,
+      "img_URL": "https://previews.123rf.com/images/chic2view/chic2view1501/chic2view150100001/35209364-.jpg",
+      "price_hour": "300",
+      "contact": "4199999999",
+      "descriptionCard": "Texto sobre o anuncio",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 13,
+          "hour_initial": 7,
+          "hour_final": 13
+        }
+      ],
+      "type": "artist",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "img_URL": "https://media.istockphoto.com/vectors/all-seeing-eye-tatto-sketch-vector-illustration-vector-id1038096964",
+      "price_hour": "400",
+      "contact": "16996245367",
+      "descriptionCard": "Roses and Masonic Eyes",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 11,
+          "day": 7,
+          "hour_initial": 7,
+          "hour_final": 13
+        }
+      ],
+      "type": "artist",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "img_URL": "https://png.pngtree.com/png-clipart/20190303/ourlarge/pngtree-phoenix-tatto-design-png-image_771642.jpg",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "Flame Bird",
+      "session": "não",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 11,
+          "day": 7,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "type": "artist",
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "img_URL": "https://static.vecteezy.com/ti/vetor-gratis/p2/2071208-pirata-caveira-com-navio-tatuagem-mao-desenho-vetor.jpg",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "Pirate",
+      "session": "não",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 8,
+          "day": 23,
+          "hour_initial": 7,
+          "hour_final": 13
+        }
+      ],
+      "type": "artist",
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "img_URL": "https://pbs.twimg.com/media/Ed9i_fxWkAIIa3t.jpg",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "Baby Face",
+      "session": "não",
+      "full_date": [
+        {
+          "year": 2023,
+          "mouth": 3,
+          "day": 23,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "type": "artist",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "img_URL": "http://3.bp.blogspot.com/-SkmAbucqap8/Uzs9v-C-FHI/AAAAAAAACC4/u3kjNCHXtL4/s1600/Codigo+Html+tattoo.jpg",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "Code",
+      "session": "Não",
+      "full_date": [
+        {
+          "year": 2023,
+          "mouth": 3,
+          "day": 23,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "type": "artist",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "img_URL": "https://blog.tattoo2me.com/wp-content/uploads/2021/07/2-119-768x1024.jpg",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "Cat",
+      "session": "Sim",
+      "full_date": [
+        {
+          "year": 2023,
+          "mouth": 3,
+          "day": 23,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "type": "artist",
+      "id": 11
+    },
+    {
+      "userId": 8,
+      "img_URL": "data:image/jpeg;base64,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",
+      "price_hour": "370",
+      "contact": "16996245367",
+      "descriptionCard": "star",
+      "session": "não",
+      "full_date": [
+        {
+          "year": 2023,
+          "mouth": 3,
+          "day": 23,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "type": "artist",
+      "id": 13
+    }
+  ],
+  "jobs": [
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 13,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "userId": 1,
+      "tattooId": 2,
+      "nameReceive": "kenzinho",
+      "name": "kenzie",
+      "status": "Aceito",
+      "id": 2
+    },
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "userId": 2,
+      "studioId": 1,
+      "nameReceive": "kenzie",
+      "name": "kenzinho",
+      "status": "Rejeitado",
+      "id": 3
+    },
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "userId": 2,
+      "studioId": 3,
+      "nameReceive": "Flata-Doce",
+      "name": "kenzinho",
+      "status": "Pendente",
+      "id": 4
+    },
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 7
+        }
+      ],
+      "userId": 2,
+      "studioId": 1,
+      "nameReceive": "kenzie",
+      "name": "kenzinho",
+      "status": "Pendente",
+      "id": 5
+    },
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "userId": 2,
+      "studioId": 3,
+      "nameReceive": "Flata-Doce",
+      "name": "kenzinho",
+      "status": "Pendente",
+      "id": 6
+    }
+  ],
+  "historyCall": [
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 5,
+          "hour_initial": 7,
+          "hour_final": 15
+        }
+      ],
+      "name": "kenzinho",
+      "nameReceive": "kenzie",
+      "status": "Rejeitado",
+      "userId": 2,
+      "studioId": 1,
+      "id": 1
+    },
+    {
+      "phone": "4199999999",
+      "full_date": [
+        {
+          "year": 2022,
+          "mouth": 12,
+          "day": 13,
+          "hour_initial": 7,
+          "hour_final": 11
+        }
+      ],
+      "name": "kenzie",
+      "nameReceive": "kenzinho",
+      "status": "Aceito",
+      "userId": 1,
+      "tattooId": 2,
+      "id": 2
+    }
+  ]
+}

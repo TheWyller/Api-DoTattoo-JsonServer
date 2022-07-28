@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>API DoTATTOO</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Documentação da Api</h1>
+    </header>
+
+    <main>
+      <hr />
+      <section>
+        <h2>Registrar Usuário Studio:</h2>
+        <p>POST/register</p>
+        <pre>
+        <code>
+          { 
+            "type": "studio",
+            "name":"kenzie",
+            "email":"kenzie@kenzie.com",
+            "password":"123456",
+            "cnpj":"123456789",
+            "phone":"4199999999",
+            "cep":"80710300",
+            "num_home":"35",(número do imovel)
+            "description": "Sou um studio",
+            "img_perfil": "https://....,
+            "history": []	
+          }
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Registrar Usuário Tatuador:</h2>
+        <p>POST/register</p>
+        <pre>
+        <code>
+          { 
+            "type": "artist",
+            "name":"kenzinho",
+            "email":"kenzinho@kenzie.com",
+            "password":"123456",
+            "cpf":"123456789",
+            "phone":"4199999999",
+            "cep":"80710300",
+            "num_home":"35",(número da casa)
+            "description": "Sou um artista",
+            "img_perfil": "https://....",
+            "history": []
+          }
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Logar Usuário</h2>
+        <p>POST/login</p>
+        <pre>
+        <code> 
+          { 
+            "email": "kenzie@mail.com", 
+            "password": "123456" 
+          } 
+        </code>
+      </pre>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Anunciar aluguel do Studio:</h2>
+        <p>*deve estar logado</p>
+        <p>POST/studio_rent</p>
+        <pre>
+        <code>
+          { 
+            "userId": id-do-Studio,
+            "img_URL":"Foto do studio",
+            "price":"2000",
+            "rental_time":"24",
+            "cep":"12345679",
+            "real_state_num":"36",(número do imovel)
+            "evaluation":"não sei o que é",
+            "contact":"4199999999",
+            "descriptionCard": "Texto sobre o anuncio",
+            "session": "Sim",
+            "full_date": [
+              {
+                "year": 2022,
+                "mouth": 12,
+                "day": 10,
+                "hour_initial": 7,
+                "hour_final": 19
+              }
+            ],
+          }
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Anunciar cronograma do Artista:</h2>
+        <p>*deve estar logado</p>
+        <p>POST/tattoo_artist_schedule</p>
+        <pre>
+        <code>
+          { 
+            "userId": id-do-Artista,
+            "img_URL":"Foto do Artista",
+            "price_hour":"1000",
+            "contact":"4199999999",
+            "descriptionCard": "Texto sobre o anuncio",
+            "session": "Sim",
+            "full_date": [
+              {
+                "year": 2022,
+                "mouth": 12,
+                "day": 10,
+                "hour_initial": 7,
+                "hour_final": 19
+              }
+          }
+        </code>
+      </pre>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Ver seu próprio Usuario</h2>
+        <p>GET/users/:id-do-user</p>
+      </section>
+      <hr />
+
+      <hr />
+      <section>
+        <h2>Visualizar todos os anúncios de Studios</h2>
+        <p>GET/studio_rent</p>
+      </section>
+      <section>
+        <h2>Visualizar um anúncio do Studio</h2>
+        <p>GET/studio_rent/:id-do-studios</p>
+      </section>
+
+      <section>
+        <h2>Visualizar todos os anúncios de Artista</h2>
+        <p>GET/tattoo_artist_schedule</p>
+      </section>
+      <section>
+        <h2>Visualizar um anúncio do artista</h2>
+        <p>GET/tattoo_artist_schedule/:id-do-artista</p>
+      </section>
+      <hr />
+      <hr />
+
+      <section>
+        <h2>Criar Chamado de JOB - Studio:</h2>
+        <p>*deve estar logado</p>
+        <p>POST/jobs</p>
+        <pre>
+        <code>
+          { 
+            "userId" : id-do-Studio,
+            "tattooId": id-do-Artista,
+            "status":"Pendente"
+            "full_date": [
+              {
+                "year": 2022,
+                "mouth": 12,
+                "day": 10,
+                "hour_initial": 7,
+                "hour_final": 19
+              }
+            ],
+          }
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Criar Chamado de JOB - Artista:</h2>
+        <p>*deve estar logado</p>
+        <p>POST/jobs</p>
+        <pre>
+        <code>
+          { 
+            "userId" : id-do-Artista,
+            "studioId": id-do-Studio,
+            "status":"Pendente"
+            "full_date": [
+                {
+                  "year": 2022,
+                  "mouth": 12,
+                  "day": 10,
+                  "hour_initial": 7,
+                  "hour_final": 19
+                }
+              ],
+          }
+        </code>
+      </pre>
+      </section>
+      <hr />
+
+      <section>
+        <h2>Visualizar todos os anúncios de JOBS</h2>
+        <p>GET/jobs</p>
+      </section>
+      <section>
+        <h2>Visualizar um anúncio de JOB</h2>
+        <p>GET/jobs/:id-do-job</p>
+      </section>
+
+      <hr />
+      <section>
+        <h2>Modificar user</h2>
+        <p>*deve estar logado</p>
+        <p>
+          *apenas o dono do anúncio poder usar essa rota (pode ser um ou vários
+          atributos) modificar só os itens que estão no objeto de exemplo
+        </p>
+        <p>PATCH/users/:id-do-user</p>
+        <pre>
+        <code> 
+          { 
+            "name":"kenzie",
+            "password":"123456",
+            "phone":"4199999999",
+            "cep":"80710300",
+            "num_home":"35",
+            "description": "Sou um studio",
+            "img_perfil": "https://....",
+            "history": []
+          } 
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Modificar um Job</h2>
+        <p>*deve estar logado</p>
+        <p>
+          *apenas o dono do anúncio poder usar essa rota (pode ser um ou vários
+          atributos) modificar só os itens que estão no objeto de exemplo
+        </p>
+        <p>PATCH/jobs/:id-do-job</p>
+        <pre>
+        <code> 
+          { 
+            "status": "Aceito"
+          } 
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Modificar O anúncio de Aluguel</h2>
+        <p>*deve estar logado</p>
+        <p>
+          *apenas o dono do anúncio poder usar essa rota (pode ser um ou vários
+          atributos) modificar só os itens que estão no objeto de exemplo
+        </p>
+        <p>PATCH//studio_rent/:id-do-Studio-rent</p>
+        <pre>
+        <code> 
+          { 
+            "img_URL":"Foto do studio",
+            "price":"3000",
+            "rental_time":"12",
+            "cep":"12345679",
+            "real_state_num":"35",
+            "evaluation":"não sei o que é",
+            "contact":"4199999999",
+            "descriptionCard": "Texto sobre o anuncio",
+            "session": "Sim",
+            "full_date" :[
+                            {
+                              "year": 2022, 
+                              "mouth": 12, 
+                              "day": 5,
+                              "hour_initial": 7,
+                              "hour_final": 19
+                            }
+                          ]
+          } 
+        </code>
+      </pre>
+      </section>
+
+      <section>
+        <h2>Modificar anúncio do Artista</h2>
+        <p>*deve estar logado</p>
+        <p>
+          *apenas o dono do anúncio poder usar essa rota (pode ser um ou vários
+          atributos) modificar só os itens que estão no objeto de exemplo
+        </p>
+        <p>PATCH/tattoo_artist_schedule/:id-do-artista-schedule</p>
+        <pre>
+        <code> 
+          { 
+            "img_URL":"Foto do Artista",
+            "price_hour":"1000",
+            "contact":"4199999999",
+            "descriptionCard": "Texto sobre o anuncio",
+            "session": "Sim",
+            "full_date" :[
+                            {
+                              "year": 2022, 
+                              "mouth": 12, 
+                              "day": 5,
+                              "hour_initial": 7,
+                              "hour_final": 19
+                            }
+                          ]
+          } 
+        </code>
+      </pre>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Deletar job</h2>
+        <p>*deve estar logado</p>
+        <p>apenas o dono do anúncio poder usar essa rota</p>
+        <p>DELETE/jobs/:id-do-job</p>
+      </section>
+
+      <section>
+        <h2>Deletar um Anúncio de Studio</h2>
+        <p>*deve estar logado</p>
+        <p>apenas o dono da info poder usar essa rota</p>
+        <p>DELETE/studio_rent/:id-do-Studio-rent</p>
+      </section>
+      <section>
+        <h2>Deletar um Anúncio do Artista</h2>
+        <p>*deve estar logado</p>
+        <p>apenas o dono do anúncio poder usar essa rota</p>
+        <p>DELETE/tattoo_artist_schedule/:id-do-artista-schedule</p>
+      </section>
+    </main>
+  </body>
+</html>
